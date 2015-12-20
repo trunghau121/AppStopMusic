@@ -1,5 +1,4 @@
 # AppStopMusic
-Music off timer app in Android
 ![](http://i.imgur.com/Tf8RI1C.jpg)
 ![](http://i.imgur.com/TLVzQp3.jpg)
 ![](http://i.imgur.com/ZwbY9ev.jpg)
