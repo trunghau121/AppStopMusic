@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/color_bg_layout"
+    tools:context="com.example.alarmtest.MainActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 phút"
+            android:id="@+id/button"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_shadow_button"
+            android:background="@drawable/custom_button_seconds"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="một giờ"
+            android:id="@+id/button2"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/color_shadow_button"
+            android:background="@drawable/custom_button_seconds"
+            android:layout_toRightOf="@+id/button"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hai giờ"
+            android:id="@+id/button3"
+            android:textStyle="bold"
+            android:textColor="@color/color_shadow_button"
+            android:background="@drawable/custom_button_seconds"
+            android:layout_below="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ba giờ"
+            android:id="@+id/button4"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/color_shadow_button"
+            android:background="@drawable/custom_button_seconds"
+            android:layout_toRightOf="@+id/button3"
+            android:layout_below="@id/button2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1h30 giờ"
+            android:id="@+id/button5"
+            android:textStyle="bold"
+            android:textColor="@color/color_shadow_button"
+            android:background="@drawable/custom_button_seconds"
+            android:layout_toRightOf="@+id/button2"
+             />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+            android:id="@+id/btcustom"
+            android:textStyle="bold"
+            android:textColor="@color/color_shadow_button"
+            android:background="@drawable/custom_button_seconds"
+            android:layout_toRightOf="@+id/button4"
+            android:layout_below="@id/button2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/hello_world"
+        android:textColor="@color/counter_text_bg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/color_text"
+        android:text="Bắt đầu" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/start"
+        android:layout_alignBottom="@+id/start"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/start"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/color_text"
+        android:text="Hủy" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#E91E63</color>
+    <color name="color_primarydark">#C2185B</color>
+    <color name="color_accent">#7C4DFF</color>
+    <color name="color_text">#FFFFFF</color>
+    <color name="colorsecondText">#999</color>
+    <color name="counter_text_bg">#000000</color>
+    <color name="color_bg_layout">#EEEEEE</color>
+    <color name="color_click_button">#40C4FF</color>
+    <color name="color_click_buttontime">#E0E0E0</color>
+
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="color_bg_button">#00B0FF</color>
+    <color name="color_shadow_button">#0091EA</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+
+</resources>
